@@ -34,12 +34,12 @@ export default function Register() {
 				body: JSON.stringify(values),
 			};
 
-			const response = await fetch(`${MAIN_URL}api/auth/signup`, options);
+			const response = await fetch("/api/auth/signup", options);
 
 			const data = await response.json();
 			if (data) {
 				if (response.ok) {
-					router.push(MAIN_URL);
+					router.push("/");
 				}
 				if (String(data.error).includes("Username")) {
 					errors.username = data.error;
