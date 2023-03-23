@@ -78,7 +78,8 @@ export default function Login() {
 						Explore
 					</h1>
 					<p className="w-3/4 mx-auto text-gray-400">
-						Welcome to our community! We're thrilled to have you here.
+						Welcome to our community! We&apos;re thrilled to have you
+						here.
 					</p>
 				</div>
 
@@ -157,6 +158,7 @@ export default function Login() {
 								src={"/assets/google.svg"}
 								width="20"
 								height={20}
+								alt="Image of a cloud"
 							></Image>
 						</button>
 					</div>
@@ -171,6 +173,7 @@ export default function Login() {
 								src={"/assets/github.svg"}
 								width={25}
 								height={25}
+								alt="Image of a cloud"
 							></Image>
 						</button>
 					</div>
@@ -178,7 +181,7 @@ export default function Login() {
 
 				{/* bottom */}
 				<p className="text-center text-gray-400 ">
-					don't have an account yet?{" "}
+					don&apos;t have an account yet?{" "}
 					<Link href={"/register"}>
 						<a className="text-blue-700">Sign Up</a>
 					</Link>
