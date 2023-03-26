@@ -2,7 +2,7 @@
 
 A Next.js project that demonstrates the implementation of Google, GitHub, and custom credential login using the NextAuth.js library. This app provides a seamless authentication experience with a clean and responsive user interface.
 
-![Home Page](./images/home_page.png)
+![Home Page](https://www.loom.com/share/628bc8a2682d4b9cbc5468d3971e4efe)
 
 ## Features
 
@@ -58,12 +58,6 @@ npm run dev
 ```
 
 6. Open your browser and navigate to http://localhost:3000
-
-## Screenshots
-
-![Login Page](./images/login_page.png)
-![Register Page](./images/register_page.png)
-![User Page](./images/user_page.png)
 
 ## License
 
