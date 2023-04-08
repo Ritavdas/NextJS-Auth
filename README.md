@@ -17,7 +17,7 @@ A Next.js project that demonstrates the implementation of Google, GitHub, and cu
 -  Next.js
 -  NextAuth.js
 -  React
--  Mongoose
+-  Mongo DB
 -  Tailwind CSS
 
 ## Getting Started
